@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
 
         SeekBar sb = (SeekBar) findViewById(R.id.sb_size);
+        sb.setProgress(20);
         sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -55,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) { }
         });
-        sb.setProgress(20);
     }
 
     public void onClickedOrientation(View view) {
