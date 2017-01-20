@@ -24,6 +24,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
     compile 'com.android.support:recyclerview-v7:25.1.0'
     compile 'com.android.support:gridlayout-v7:25.1.0'
-    compile project(':library')
+    compile project(':fadingedgelayout')
 //    compile 'com.github.bosphere.android-fadingedgelayout:fadingedgelayout:1.0.0'
 }
