@@ -15,14 +15,14 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin">
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
     </com.bosphere.fadingedgelayout.FadingEdgeLayout>
 
-    <android.support.v7.widget.GridLayout
+    <androidx.gridlayout.widget.GridLayout
         android:id="@+id/grid_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
             app:layout_columnSpan="3"
             app:layout_gravity="fill_horizontal">
 
-            <android.support.v7.widget.AppCompatRadioButton
+            <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/rb_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
                 android:checked="true"
                 android:onClick="onClickedOrientation"/>
 
-            <android.support.v7.widget.AppCompatRadioButton
+            <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/rb_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             app:layout_columnWeight="1"
             app:layout_gravity="fill_horizontal">
 
-            <android.support.v7.widget.SwitchCompat
+            <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/sw_top"
                 android:text="Top"
                 android:onClick="onClickedSwitch"
@@ -78,7 +78,7 @@
             app:layout_columnWeight="1"
             app:layout_gravity="fill_horizontal">
 
-            <android.support.v7.widget.SwitchCompat
+            <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/sw_left"
                 android:text="Left"
                 android:onClick="onClickedSwitch"
@@ -91,7 +91,7 @@
             app:layout_columnWeight="1"
             app:layout_gravity="fill_horizontal">
 
-            <android.support.v7.widget.SwitchCompat
+            <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/sw_bottom"
                 android:text="Bottom"
                 android:onClick="onClickedSwitch"
@@ -104,7 +104,7 @@
             app:layout_columnWeight="1"
             app:layout_gravity="fill_horizontal">
 
-            <android.support.v7.widget.SwitchCompat
+            <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/sw_right"
                 android:text="Right"
                 android:onClick="onClickedSwitch"
@@ -119,12 +119,12 @@
             app:layout_columnSpan="1"
             app:layout_gravity="center_vertical"/>
 
-        <android.support.v7.widget.AppCompatSeekBar
+        <androidx.appcompat.widget.AppCompatSeekBar
             android:id="@+id/sb_size"
             android:layout_height="40dp"
             app:layout_columnSpan="3"
             app:layout_gravity="center_vertical|fill_horizontal"/>
 
-    </android.support.v7.widget.GridLayout>
+    </androidx.gridlayout.widget.GridLayout>
 
 </RelativeLayout>
