@@ -46,6 +46,8 @@ mFadingEdgeLayout.setFadeEdges(mEnableTop, mEnableLeft, mEnableBottom, mEnableRi
 mFadingEdgeLayout.setFadeSizes(lenPx, lenPx, lenPx, lenPx);
 ```
 
+The fading edges are not implemented as color overlay but rather linear gradient alpha mask of the content. So it'll naturally follow the color of the background.
+
 Compatibility
 -------------
 
